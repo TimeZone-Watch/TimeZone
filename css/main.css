@@ -545,8 +545,8 @@ a:focus {
 }
 
 .testimonial-img {
-  width: 150px;  /* Increased width */
-  height: 150px; /* Increased height */
+  width: 300px;  /* Increased width */
+  height: 190px; /* Increased height */
   border-radius: 50%;
   margin-bottom: 20px;
 }
