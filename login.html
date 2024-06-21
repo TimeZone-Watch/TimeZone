@@ -63,29 +63,30 @@
   </nav>
 
   <section class="container forms">
-    <div class="form login">
-        <div class="form-content">
-            <header>Login</header>
-            <form action="#">
-                <div class="field input-field">
-                    <input type="email" placeholder="Email" class="input">
-                </div>
-                <div class="field input-field">
-                    <input type="password" placeholder="Password" class="password">
-                    <i class='bx bx-hide eye-icon'></i>
-                </div>
-                <div class="form-link">
-                    <a href="#" class="forgot-pass">Forgot password?</a>
-                </div>
-                <div class="field button-field">
-                    <button>Login</button>
-                </div>
-            </form>
-            <div class="form-link">
-                <span>Don't have an account? <a href="signup.html">Signup</a></span>
-            </div>
-        </div>
-    </div>
+    <section class="container forms">
+      <div class="form login">
+          <div class="form-content">
+              <header>Login</header>
+              <form action="#" id="loginForm">
+                  <div class="field input-field">
+                      <input type="email" placeholder="Email" class="input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                  </div>
+                  <div class="field input-field">
+                      <input type="password" placeholder="Password" class="password" required>
+                      <i class='bx bx-hide eye-icon'></i>
+                  </div>
+                  <div class="form-link">
+                      <a href="#" class="forgot-pass">Forgot password?</a>
+                  </div>
+                  <div class="field button-field">
+                      <button type="submit">Login</button>
+                  </div>
+              </form>
+              <div class="form-link">
+                  <span>Don't have an account? <a href="signup.html">Signup</a></span>
+              </div>
+          </div>
+      </div>
   </section>
   <div id="signupPopup" class="popup">
     <div class="popup-content">
